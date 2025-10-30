@@ -1,37 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+
 body {
-  font-family: Comic Sans MS, sans-serif;
-  background-color: #fff8e1;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  background: linear-gradient(135deg, #81d4fa, #f8bbd0);
   text-align: center;
   margin: 0;
+  color: #333;
 }
+
 header {
-  background: #ffcc80;
+  background: #f48fb1;
   padding: 15px;
+  color: white;
+  border-bottom: 4px solid #81d4fa;
 }
+
+h1, h2, h3 {
+  color: #01579b;
+}
+
 nav a {
   margin: 0 10px;
-  color: #000;
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  background: #81d4fa;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
+
+nav a:hover {
+  background: #4fc3f7;
+}
+
 main {
   padding: 20px;
 }
+
 button {
-  background: #ffd54f;
+  background: #81d4fa;
   border: none;
-  padding: 10px 15px;
-  margin: 5px;
-  font-size: 16px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 18px;
+  color: white;
   cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
 }
+
 button:hover {
-  background: #ffb300;
+  background: #4fc3f7;
+  transform: scale(1.05);
 }
-footer {
-  background: #ffe082;
+
+input[type="number"] {
+  font-size: 22px;
   padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  border: 3px solid #f48fb1;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+footer {
+  background: #f48fb1;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
 }
